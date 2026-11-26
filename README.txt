@@ -5,8 +5,8 @@
 【工具說明】
 Dell Latitude E4310 筆電內部的 2GB Latitude ON Flash 實體模組（eUSB 儲存晶片），
 在常規開機時，Dell BIOS 預設會切斷其供電。
-當您使用任何「USB 隨身碟開機」（如 Lakka Live USB、Ubuntu Live USB 等）時，
-磁碟列表中預設不會出現該 2GB 模組。
+當使用任何「USB 隨身碟開機」（如 Ubuntu Live USB）時，磁碟列表中預設不會出現該
+2GB 模組。
 
 此工具透過 Dell 原廠 SMM Calling Interface（Class 17, Select 13, Arg 3），
 直接向硬體發送通電信號，喚醒該 2GB 磁碟。
